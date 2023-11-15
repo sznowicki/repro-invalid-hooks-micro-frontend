@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Repro repo - invalid hooks - micro frontends</title>
+    <script src="./host.jsx" type="module"></script>
+</head>
+<body>
+<div id="root"></div>
+<!-- this below would work, same bundler, same react -->
+<!--<script src="./micro-frontend.jsx" type="module"></script>-->
+<script src="http://localhost:3001/micro-frontend.js" type="module"></script>
+</body>
+</html>
